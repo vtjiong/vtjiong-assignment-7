@@ -193,7 +193,7 @@ def hypothesis_test():
 
     # TODO 11: If p_value is very small (e.g., <= 0.0001), set fun_message to a fun message
     if p_value <= 0.0001:
-        fun_message = 'Really, strong evidence against the null hypothesis. Suspect did it'
+        fun_message = 'Really, strong evidence against the null hypothesis. Suspect did not do it'
     else:
         fun_message = None
 
